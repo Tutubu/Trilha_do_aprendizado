@@ -1,0 +1,28 @@
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    margin: 30px 50px 30px 60px;
+    border: solid 1px gray;
+    padding: 20px;
+    background-color: lavender;
+}
+p
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: ivory;
+    background-color: lightcoral;
+    border: dotted 2px black;
+    padding: 10px 20px 30px 15px;
+}
+div
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkslategray;
+    margin-bottom: 10px;
+    background-color: rgb(252, 192, 201);
+    border: dotted 2px black;
+    padding: 20px 30px;
+    height: 100px;
+    width: 500px;
+}

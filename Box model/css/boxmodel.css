@@ -1,0 +1,15 @@
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    border-style: groove;
+    border-width: 1px;
+    border-color: ivory;
+    padding: 20px;
+    margin: 100px 80px;
+    background-color: lavender;
+    
+}
+h1
+{
+    background-color: lightcoral;
+}
