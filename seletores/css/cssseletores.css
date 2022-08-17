@@ -1,0 +1,59 @@
+div 
+{
+    background-color: darkslategray;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(252, 192, 201);
+}
+.b1
+{
+    background-color:darkseagreen;
+    color: ivory;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid snow;
+    width: 70px;
+    height: 20px;
+}
+.b2
+{
+    background-color: darkslateblue;
+    color: honeydew;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid lavender;
+    width: 70px;
+    height: 20px;
+}
+.agrupamento
+{
+    background-color: rgb(252, 192, 201);
+    color: darkslategrey;
+    border: dotted 2px black;
+    margin: 10px;
+    padding: 10px;
+}
+#unico
+{
+    background-color: darkslategrey;
+    color:rgb(252, 192, 201);
+    border: dotted 2px white;
+    margin: 10px;
+    padding: 10px;
+}
+.personalizado
+{
+    background-color: rgb(252, 192, 201);
+    color: darkslategray;
+    border: dotted 2px black;
+    margin: 10px;
+    padding: 10px;
+}
+.personalizado:hover
+{
+    border: 5px solid darkslategray;
+}
+.pseudo::selection
+{
+    color: black;
+    background-color: white;
+}
