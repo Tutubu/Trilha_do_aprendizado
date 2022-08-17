@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hipertexto em HTML</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon_io/site.webmanifest">
+</head>
+<body>
+    <h1 id="inicio">Hipertexto em HTML</h1>
+    <hr>
+    <p>É uma referência dentro de um documento em hipertexto para outras partes do mesmo documento, outros documentos, arquivos ou endereço eletrônico Os links podem ser remotos, internos, locais, com endereço de correio ou arquivos</p>
+    <p>A marcação de hiperlinks acontece utilizando a tag &lta&gt e a propriedade href que faz a referência para ao conteúdo desejado.</p>
+    <p id="lista">Em html temos varias maneiras de por hiperlinks:</p>
+    <ol type="I">
+        <li>
+            <a href="#externo">
+                Hiperlink para um site externo
+            </a> 
+        </li>
+        <li>
+            <a href="#interno">
+                Hiperlink para um site interno
+            </a>
+        </li>
+        <li>
+            <a href="#local">
+                Hiperlink dentro do próprio documento
+            </a> 
+        </li>
+        <li>
+            <a href="#img">
+                Hiperlink em imagem
+            </a>
+        </li>
+        <li>
+            <a href="#email">
+                Hiperlink para e-mail
+            </a>
+        </li>
+    </ol>
+    <hr>
+
+    <h2 id="externo">Hiperlink externo</h2>
+    <p>São Iinks que referenciam sites ou páginas da web. Na propriedade href utilizamos a URL (Uniform Resource Locator) para a referência que desejamos.</p>       
+    <p>Este é um exemplo de link para um site externo:
+        <a href="https://irati.ifpr.edu.br/" target="_blank">
+            Instituto Federal do Paraná
+        </a>
+    </p>
+    <p>Para a escrita deste tipo de hiperlink em html, primeiramente devemos por o comando &lta href=""&gt, dentro das aspas do href devemos referenciar o url do site, antes de encerrar você escreve como deseja que apareça ao usuario o hiperlink, após seguir todos os passos basta encerrar o comando &lta&gt com:  &lt/a&gt</p>
+    <img src="img/WhatsApp Image 2022-05-10 at 23.20.07.jpeg" alt="como por o site do if em hiperlink">
+    <p><b>Opcional:</b>  caso deseje você pode por o comando target="_blank" dentro do &lta&gt para assim o site ser aberto em uma nova aba</p>
+    <a href="#lista">
+        retornar
+    </a>
+    <hr>
+
+    <h2 id="interno">Hiperlink interno</h2>
+    <p>São links que apontam a um lugar diferente dentro da mesma página e possibilita acessar diferentes parágrafos ou seções quando o documento é extenso.</p>
+    <p>Este é um exemplo de link para dentro do documento ele levará você ao topo deste site:
+        <a href="#inicio">
+            Inicio
+        </a>
+    </p>
+    <p>Para a escrita deste tipo de hiperlink em html, primeiramente devemos por o comando &lta href="#"&gt, após o # deve ser posto o id da parte que você deseja que vá, o id pode ser posto dentro do inicio do comando de titulo hn, após seguir todos os passos basta encerrar o comando &lta&gt com: &lt/a&gt</p>
+    <img src="img/WhatsApp Image 2022-05-10 at 23.46.07.jpeg" alt="exemplo de como fazer hiperlink dentro do documento em  html">
+    <p><font color="red">ATENÇÃO!</font> Não é muito util, usar o comando target neste caso, já que o usuario estar se movimentando dentro do próprio documento.</p>
+    <p><b>Opcional:</b>  caso deseje você pode por o comando target="_blank" dentro do &lta&gt para assim o site ser aberto em uma nova aba</p>
+    <a href="#lista">
+        retornar
+    </a>
+    <hr>
+
+    <h2 id="local">Hiperlink locais</h2>
+    <p>São links que apontam para outros páginas dentro de um mesmo site.</p> 
+    <p>Este é um exemplo de link para outra página deste site:
+        <a href="Links_uteis/links_uteis.html" target="_blank">
+            Links uteis
+        </a>
+    </p>
+    <p>Para a escrita deste tipo de hiperlink em html, primeiramente devemos por o comando &lta href=""&gt, dentro das aspas do href devemos referenciar o arquivo do site, o mesmo deve se encontrar na mesma pasta que o arquivo html que você está escrevendo, antes de encerrar você escreve como deseja que apareça ao usuario o hiperlink, após seguir todos os passos basta encerrar o comando &lta&gt com: &lt/a&gt</p>
+    <img src="img/WhatsApp Image 2022-05-10 at 23.31.10.jpeg" alt="um exemplo de como por sites seus em hiperlink">
+    <p>
+        <a href="#lista">
+            retornar
+        </a>
+    </p>
+    <hr>
+
+    <h2 id="img">Hiperlinks em imagens</h2>
+    <p>É possível realizar hiperlinks imagens envolvendo a tag de imagem com a tag de hiperlink</p>
+    <p>Este é um exemplo de imagem que redireciona para um site:
+        <a href="https://pt.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank"> <br> <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg" alt="imagem de Tim Berners-Lee" width="30%"> </a>
+    </p>
+    <p>Para a marcação deste tipo de hiperlink em html, primeiramente devemos por o comando &lta href=""&gt, dentro das aspas do href devemos referenciar aquilo que você deseja, antes de encerrar você coloca a imagem que deseja que apareça ao usuario o hiperlink, após seguir todos os passos basta encerrar o comando &lta&gt com:  &lt/a&gt</p>
+    <img src="img/WhatsApp Image 2022-05-17 at 22.43.38.jpeg" alt="Como realizar a marcação em imagens">
+    <p><b>Opcional:</b>  caso deseje você pode por o comando target="_blank" dentro do &lta&gt para assim o site ser aberto em uma nova aba</p>
+    <a href="#lista">
+        retornar
+    </a>
+    <hr>
+
+    <h2 id="email">Hiperlink para endereço eletrônico</h2>
+    <p>São links que apontam para um endereço eletrônico</p>
+    <p>Este é um exemplo de link que redireciona a um e-mail:
+        <a href="mailto:juquinha@gmail.com">
+            Contato de exemplo
+        </a>
+    </p>
+    <p>Para a escrita deste tipo de hiperlink em html, primeiramente devemos por o comando &lta href="mailto"&gt, após o mailto: devemos referenciar o e-mail desejado, antes de encerrar você escreve como deseja que apareça ao usuario o hiperlink, após seguir todos os passos basta encerrar o comando &lta&gt com:  &lt/a&gt</p>
+    <img src="img/WhatsApp Image 2022-05-11 at 00.04.50.jpeg" alt="um exemplo de como por e-mails em hiperlink">
+    <p>
+    </p>
+    <a href="#lista">
+        retornar
+    </a>
+    <hr>
+</body>
+</html>
