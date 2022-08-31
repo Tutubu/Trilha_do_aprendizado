@@ -1,0 +1,41 @@
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+div
+{
+    height: 180px;
+    width: 400px;
+    margin: 10px;
+}
+.box1
+{
+    position: static;
+    background-color: darkslategrey;
+}
+.box2
+{
+    position: relative;
+    left: 420px;
+    bottom: 200px;
+    background-color: rgb(252, 192, 201);
+}
+.box3
+{
+    position: absolute;
+    background-color: darkseagreen;
+    top: 210px;
+    left: 430px;
+}
+.box4
+{
+    position: fixed;
+    top: 210px;
+    background-color: rgb(166, 166, 253);
+}
+.box5
+{
+    position: sticky;
+    top: 2000px;
+    background-color: lightcoral;
+}
