@@ -1,0 +1,50 @@
+.barra
+{
+    background-color: rgb(37, 78, 75);
+    height: 10px;
+}
+.imagem
+{  
+    margin-left: 125px;
+    height: 76px;
+    width: 79px;
+}
+.navebar
+{
+
+    position: absolute;
+    width: 500px;
+    height: 76px;
+    left: 100px;
+    top: 15px;
+    text-align: center;
+}
+.teclado
+{
+    height: 400px;
+    padding: 5px;
+    background-color: rgb(190, 196, 182);
+    text-align: center;
+}
+.texto
+{
+    margin-top: 10px;
+    margin-left: 100px;
+
+    padding: 1px;
+}
+.direitos
+{
+    text-align: center;
+    margin: 16px;
+}
+.linha
+{
+    background-color: rgb(37, 78, 75);
+    height: 1px;
+}
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+}
