@@ -1,0 +1,66 @@
+body /*estilização do corpo do site*/
+{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;/*tamanho oculpado pelo texto*/
+    margin: 0 auto;/*distribuição do conteudo*/
+    background: linear-gradient(to right,#0b1726,#1f3f66);/*degrade*/
+}
+header/*define cabeçalho*/
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #161616;
+    border-radius: 5px;/*aredondar cantos*/
+    margin-top: 10px;
+}
+.logo img /*estilizando imagem da logo*/
+{
+    width: 45%;/*define tamanho da imagem em relação ao navegador*/
+    padding-top: 50px;
+}
+.navegacao
+{
+    overflow: hidden;
+}
+.navegacao a/*estilização de hiperlinks*/
+{
+    float: right;/*disposição dos hiperlinks a direita*/
+    color: rgb(173, 173, 173);
+    text-decoration: none;/*elimina sublinhado*/
+    padding: 10px;
+}
+.navegacao a:hover
+{
+    color: #e32936;
+}
+.principal
+{
+    display: flex; /*organiza a disposição do conteudo divs uma ao lado da outra*/
+    flex-direction: row;
+}
+.conteudo/*estilizou do conteudo*/
+{
+    float: left;/*disposição do conteudo*/
+    background-color: gainsboro;
+    text-align: justify;
+    padding: 15px;
+    margin: 15px 5px 25px 5px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #08101a98;/*define a sombra*/
+}
+
+.rodape
+{
+    color: darkgray;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+}
+@media screen and (max-width:600px) /*responsividade alteração do layout de acordo com o tamanho da tela*/
+{
+    body, .principal, .conteudo/*define os escopos que serão alterados*/
+    {
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+}
