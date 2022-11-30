@@ -30,7 +30,7 @@ header
 }
 .navegacao a:hover
 {
-    color: #006466;
+    color: #288688;
 }
 .principal
 {
@@ -40,7 +40,7 @@ header
 .conteudo
 {
     float: left;
-    background-color: #0b525b;
+    background-color: rgb(74, 112, 112);
     text-align: justify;
     padding: 15px;
     margin: 10px 5px 25px 5px;
