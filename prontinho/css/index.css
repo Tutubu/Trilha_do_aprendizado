@@ -1,0 +1,73 @@
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    width: 90%;
+    margin: 0 auto;
+    background: linear-gradient(to right, ivory, #768181);
+}
+header
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(252, 192, 201);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.logo img
+{
+    width: 45%;
+    padding-top: 50px;
+}
+.navegacao
+{
+    overflow: hidden;
+}
+.navegacao a
+{
+    float: right;
+    color: darkslategrey;
+    text-decoration: none;
+    padding: 10px;
+}
+.navegacao a:hover
+{
+    color: #006466;
+}
+.principal
+{
+    display: flex;
+    flex-direction: row;
+}
+.conteudo
+{
+    float: left;
+    background-color: #0b525b;
+    text-align: justify;
+    padding: 15px;
+    margin: 10px 5px 25px 5px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #1a1423;
+}
+.central
+{
+    width: 50%;
+}
+.lateral
+{
+    width: 20%;
+}
+.rodape
+{
+    color: #d8f3dc;
+    font-size: 13px;
+    text-align: center;
+    padding: 20px;
+}
+@media screen and (max-width:600px) /*responsividade alteração do layout de acordo com o tamanho da tela*/
+{
+    body, .principal, .conteudo/*define os escopos que serão alterados*/
+    {
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+}
